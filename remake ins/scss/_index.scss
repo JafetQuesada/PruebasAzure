@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: #fbfbfd;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #01072b;
+    margin-bottom: 10vh;
+    max-height: 15vh;
+    img {
+        width: 32%;
+    }
+    #nav {
+        border-radius: 4px;
+        a {
+            padding: 1vh 1.44vw;
+            color: white;
+            &:hover {
+                background: white;
+                color: black;
+            }
+        }
+        input {
+            margin: 1vh 2vw;
+        }
+    }
+}
+
+main {
+    .titulo {
+        color: #092d5d;
+        font-size: 3rem;
+        margin-bottom: 5vh;
+    }
+    .carousel {
+        position: relative;
+        width: 90%;
+        height: 50%;
+        margin: 1vh auto;
+    }
+    .h2servicios {
+        padding-top: 15vh;
+        color: #092d5d;
+    }
+    .jumbotron {
+        background: rgba(255, 255, 255, 1);
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(1, 7, 43, 1) 0%, rgba(0, 99, 165, 1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(0%, rgba(1, 7, 43, 1)), color-stop(100%, rgba(0, 99, 165, 1)));
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(1, 7, 43, 1) 0%, rgba(0, 99, 165, 1) 100%);
+        background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(1, 7, 43, 1) 0%, rgb(14, 42, 61) 100%);
+        background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(1, 7, 43, 1) 0%, rgb(14, 42, 61) 100%);
+        background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(1, 7, 43, 1) 0%, rgb(14, 42, 61) 100%);
+        color: #f7f7f7;
+        margin-bottom: 10vh;
+    }
+    .carta {
+        border: 3px solid #28a745;
+        border-radius: 4px;
+        margin: 10vh auto;
+        margin-bottom: 25vh;
+        text-align: center;
+    }
+    .mision {
+        background: #f6f6f6;
+        .divs {
+            &:nth-child(even) {
+                background: #f6f6f6;
+            }
+            &:nth-child(odd) {
+                background: white;
+            }
+            padding: 6vh 0;
+        }
+    }
+}
+
+.fa-facebook {
+    font-size: 2rem;
+    color: #2d88ff;
+}
+
+.fa-youtube {
+    font-size: 2rem;
+    color: #ff0000;
+}
+
+.fa-twitter {
+    font-size: 2rem;
+    color: #5da9dd;
+}
+
+#fot2 {
+    margin: 5vh 0;
+    display: flex;
+    justify-content: space-between;
+    a {
+        color: #28a745;
+    }
+}
